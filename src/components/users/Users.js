@@ -26,7 +26,7 @@ class Users extends Component {
   };
   render() {
     return (
-      <div class="grid-3">
+      <div className="grid-3">
         {this.state.users.map(user => (
           <UserItem key={user.id} user={user} />
         ))}
